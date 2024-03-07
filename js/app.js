@@ -211,9 +211,9 @@ const util = (() => {
         AOS.init();
         audio.play();
 
-        if (localStorage.getItem('alertClosed')) {
-            document.getElementById('alertDiv').style.display = 'none';
-        }
+        // if (localStorage.getItem('alertClosed')) {
+        //     document.getElementById('alertDiv').style.display = 'none';
+        // }
 
         opacity('welcome');
         document.getElementById('tombol-musik').style.display = 'block';
