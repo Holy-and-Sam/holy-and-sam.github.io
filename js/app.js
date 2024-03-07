@@ -481,7 +481,7 @@ const like = (() => {
                 });
         }
 
-        info.innerText = info.getAttribute('data-suka') + ' suka';
+        info.innerText = info.getAttribute('data-suka') + ' yay!';
         button.disabled = false;
     };
 
@@ -551,17 +551,17 @@ const comment = (() => {
         }
 
         if (nama.length >= 35) {
-            alert('panjangan nama maksimal 35');
+            alert('Max. 35 characters for name');
             return;
         }
 
         if (hadir == 0) {
-            alert('silahkan pilih kehadiran');
+            alert('Please choose your relation to the groom/bride');
             return;
         }
 
         if (komentar.length == 0) {
-            alert('pesan tidak boleh kosong');
+            alert('Message cannot be empty');
             return;
         }
 
@@ -740,7 +740,7 @@ const comment = (() => {
                     pagination.setResultData(res.data.length);
 
                     if (res.data.length == 0) {
-                        UCAPAN.innerHTML = `<div class="h6 text-center">Tidak ada data</div>`;
+                        UCAPAN.innerHTML = `<div class="h6 text-center">No messages. Add one!</div>`;
                     }
                 }
             })
