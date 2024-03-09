@@ -1,8 +1,8 @@
-# Now & Forever
+# Holy & Samuel | Now & Forever
 
-## Demo
+Please visit our live demo at <https://holylovenia.github.io/now-and-forever/>
 
-<https://holylovenia.github.io/now-and-forever/>
+## Acknowledgement
 
 The original template was taken from <https://github.com/dewanakl/undangan>.
 
