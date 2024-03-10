@@ -1,6 +1,6 @@
 # Holy & Samuel | Now & Forever
 
-Please visit our live demo at <https://holylovenia.github.io/now-and-forever/>
+Please visit our live demo at <https://holy-and-sam.online/>
 
 ## Acknowledgement
 
